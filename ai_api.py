@@ -22,7 +22,7 @@ def generate_ai_explanation(patient_folder, api_key=None):
     # HuggingFace client
     client = InferenceClient(
         provider="cerebras",
-        api_key=api_key or os.environ.get("HF_API_TOKEN", "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"),
+        api_key=api_key or os.environ.get("HF_API_TOKEN", "Your_api_key"),
     )
 
     # Prompt
