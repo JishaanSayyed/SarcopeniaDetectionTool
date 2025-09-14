@@ -78,6 +78,16 @@ The goal is to reduce manual analysis time, improve accuracy, and support clinic
   - Sarcopenia report (CSV)  
 
 ---
+## 🔑 Hugging Face Token (Important)
+
+This project previously included a Hugging Face API token, but for security reasons it has been revoked.  
+If you wish to run the Hugging Face–related functionality (e.g., loading pretrained models), you will need to provide **your own token**.
+
+### How to set it up
+1. Go to [Hugging Face Settings → Access Tokens](https://huggingface.co/settings/tokens).  
+2. Create a **new token** with "read" (or "write" if required) permissions.  
+3. Add it to ai_api.py
+----
 
 ## 📌 Citation  
 If you use this tool in your research, please cite this repository.  
@@ -87,4 +97,4 @@ If you use this tool in your research, please cite this repository.
 ## 📧 Contact  
 For questions or contributions, feel free to:  
 - Open an **issue** on GitHub  
-- Or reach out via email listed in this repo  
+- Or reach out via email: jishaansayyed46@gmail.com 
